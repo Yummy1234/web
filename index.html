@@ -3,28 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>clock</title>
+    <title>home</title>
     <style>
         *{
-            margin: 0;
+            /* rest css */
             padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+
         }
-        #clock{
-            width: 100vw;
-            height:100vh;
-            color: white;
-        }
+
         body{
-            background-image: url(jp.jpg);
-            background-size: cover;
+            background-image: linear-gradient(purple,blue);
+            height:100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20pzs;
         }
-        
+        header{
+            height:50px;
+            background-color: aqua;
+            backdrop-filter: blur(10px);
+        }
+         ul{
+             display: flex;
+             list-style: none;
+         }
+
+         li{
+             padding:0 20px;
+         }
+          a{
+              text-decoration: none;
+              color: black;
+          }
+
+          a:hover{
+             background-color: aquamarine;
+          }
     </style>
 </head>
 <body>
-    <div id="clock">
-        17:12:30
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a herf="/">home</a></li>
+                <li><a herf="/">project</a></li>
+                <li><a herf="/">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
